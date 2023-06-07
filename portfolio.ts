@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Jason Yang',
   title: "Hello Everyone, I'm Jason",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Hyperledger Fabric Framework.",
+    "Over 7 years of experience in developing and implementing blockchain solutions for various industries. Mastered various blockchain technologies such as Ethereum, Hyperledger, and Corda. Strong problem-solving skills and ability to work collaboratively in a team environment. Has published 3 research papers on blockchain technology in peer-reviewed journals. Keeps up to date with the latest blockchain trends and technologies with enthusiasm.",
   resumeLink:
     "https://drive.google.com/file/d/1iUnLmsgaVtoJnrnxA4Zf9k_IR95VnD0a/view?usp=drive_link",
 };
@@ -27,7 +27,9 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  github: 'https://github.com',
+  github: 'https://github.com/last-dragon',
+  facebook : 'https://www.facebook.com',
+  linkedin : 'https://linkedin.com/Jason-Yang'
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -205,9 +207,9 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'University of Northern Colorado',
-    subHeader: 'Bachelor of Science in Software Engineering, Minor in Computer Science',
-    duration: 'March 2010 - April 2016',
+    schoolName: 'Hong Kong University of Information and Technology',
+    subHeader: 'Bachelor of Computer Science, Minor in Computer Science',
+    duration: 'March 2012 - April 2016',
     desc: 'Participated in the research of Software Engineer and published 3 papers.',
     grade: 'Grade A',
     // descBullets: [
@@ -215,74 +217,89 @@ export const educationInfo: EducationType[] = [
     //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     // ],
   },
-  {
-    schoolName: 'University of Massachusettes Lowell',
-    subHeader: 'Bachelor of Science in Computer Engineering',
-    duration: 'March 2016 - December 2018',
-    desc: 'Participated in the research of Artificial Intelligence.',
-    grade: 'Grade A',
-    // descBullets: [
-    //   '',
-    //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    // ],
-  },
+  // {
+  //   schoolName: 'University of Massachusettes Lowell',
+  //   subHeader: 'Bachelor of Science in Computer Engineering',
+  //   duration: 'March 2016 - December 2018',
+  //   desc: 'Participated in the research of Artificial Intelligence.',
+  //   grade: 'Grade A',
+  //   // descBullets: [
+  //   //   '',
+  //   //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  //   // ],
+  // },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Blockchain Developer',
-    company: 'BITOWFI',
-    companyLogo: '/img/icons/common/',
-    date: 'Jan 2019 – Dec 2022',
-    desc: 'I worked as blockchain developer in BitowFi to develop smart contract in Ethereum blockchain and chaincode in Hyperledger Fabric blockchain. ',
+    role: 'Blockchain Engineer',
+    company: 'OnTheGoSystems',
+    companyLogo: '/img/icons/common/wapidu.jpg',
+    date: 'May 2021 – May 2023',
+    desc: '',
     descBullets: [
-    	"Closely collaborated with the product and dev teams to improve the efficiency of the platform by 25%",
-    	"Participated in 5+ open source community projects, met with stakeholders, and mentored and tutored 3 junior developers",
-      "Built 5 reusable cross-chain libraries",
-      "Participated in the development of 3 new tools and integrated them into the platform"
+    	"Work closely with product and development teams to improve platform efficiency by 25%.",
+    	"Built a private blockchain using Hyperledger Fabric, increasing data security and reducing risk by 93%",
+      "Developed an efficient and secure back-end infrastructure combining Web3 and FinTech, resulting in a 7% increase in transaction speed and a 5% reduction in processing costs.",
+      "Transformed business requirements into technical specifications and developed a scalable and maintainable architecture for an e-commerce website with more than 500,0 registered users and a transaction volume of more than $500,000 per month."
     ],
   },
   {
-    role: 'AI Engineer',
-    company: 'Duseca Software',
+    role: 'Blockchain Developer',
+    company: 'CYBAVO',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Feb 2016 – Dec 2018',
-    desc: 'I worked as AI Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions.',
+    date: 'Nov 2018 – Apr 2021',
+    desc: '',
     descBullets: [
-    	"Design and execute well-engineered, easy-to-maintain, reliable, and bug-free code for company to increase user by 6 billions",
-    	"Design, test, and deploy new artificial intelligence functionalities for 8 major projects of the company worth $5M in total",
-      "Author sophisticated and optimized codes For different games to boost the reusability of standard modules"
+    	"In the first year of the e-commerce site, I created a custom ERC-20 token to act as a payment method and implemented secure transaction protocols to protect user data, resulting in over $100,000 worth of transactions being processed.",
+    	"Working with cross-functional teams, I designed and implemented a blockchain-based decentralized identity solution that resulted in a scalable platform used by more than 50,000 users.",
+      "By developing custom smart contracts and integrating them into the front-end UI with Web3.js, I created a user-friendly interface for easy tracking of inventory and shipments, resulting in over 90% customer satisfaction for the site.",
+      "Established security measures such as multi-factor authentication and encryption to ensure data privacy and confidentiality, resulting in a secure and trusted platform."
+    ],
+  },
+  {
+    role: 'Blockchain Developer Intern',
+    company: 'imToken',
+    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    date: 'Apr 2018 – Aug 2018',
+    desc: '',
+    descBullets: [
+    	"In the first year of the e-commerce site, I created a custom ERC-20 token to act as a payment method and implemented secure transaction protocols to protect user data, resulting in over $100,000 worth of transactions being processed.",
+    	"Working with cross-functional teams, I designed and implemented a blockchain-based decentralized identity solution that resulted in a scalable platform used by more than 50,000 users.",
+      "By developing custom smart contracts and integrating them into the front-end UI with Web3.js, I created a user-friendly interface for easy tracking of inventory and shipments, resulting in over 90% customer satisfaction for the site.",
+      "Established security measures such as multi-factor authentication and encryption to ensure data privacy and confidentiality, resulting in a secure and trusted platform."
     ],
   },
   {
     role: 'Full Stack Developer',
-    company: 'Bleed-AI',
+    company: 'Zilingo',
     companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'March 2013 - Jen 2016',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    date: 'Apr 2016 - Apr 2018',
+    desc: '',
     descBullets: [
-    	"Supervised and lead a team of 5 junior software engineers during the development of a robust upgrade version of the company's software applications, resulting in improved user experience and a 33% revenue increase within 8 months",
-    	"Proficiently troubleshot simple and complex technological issues for different assigned projects, achieving over 95% customer satisfaction rate",
-      "Enhanced the application's features to effectively fix the bugs and optimize the overall performance, reliability, and efficiency"
+    	"By designing and implementing custom payment integrations with PayPal and Stripe, I was able to increase the website's successful transactions by 25% and increase customer satisfaction by 15% by ensuring secure transactions.",
+    	"Implemented a user-friendly checkout process that resulted in a 5% increase in completed purchases.",
+      "Optimized load times for product pages, reducing load times by up to 70% and improving search engine rankings.",
+      "Conducted A/B testing of various website features, which resulted in a 15% increase in overall sales."
     ],
   }
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'EHR-Blockchain',
+    name: 'Supply-Chain Management System',
     desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    github: 'https://github.com/last-dragon/Django-React-Marketplace',
   },
   {
     name: 'Technota (Forum)',
     desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    github: 'https://github.com/last-dragon/django-react-forum',
   },
   {
     name: 'Shopaza (Ecommerce)',
     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    github: 'https://github.com/last-dragon/Django-ecommerce',
   },
 ];
 
