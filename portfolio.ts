@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "Over 7 years of experience in developing and implementing blockchain solutions for various industries. Mastered various blockchain technologies such as Ethereum, Hyperledger, and Corda. Strong problem-solving skills and ability to work collaboratively in a team environment. Has published 3 research papers on blockchain technology in peer-reviewed journals. Keeps up to date with the latest blockchain trends and technologies with enthusiasm.",
   resumeLink:
-    "https://drive.google.com/file/d/1iUnLmsgaVtoJnrnxA4Zf9k_IR95VnD0a/view?usp=drive_link",
+    "https://drive.google.com/file/d/1btqIhAgOJPKLo5K5cUmVwGXGh_R_Lyrd/view?usp=drive_link",
 };
 
 export const openSource = {
@@ -60,6 +60,10 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:javascript',
         },
         {
+          skillName: 'TypeScript',
+          fontAwesomeClassName: 'logos:typescript',
+        },
+        {
           skillName: 'Reactjs',
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
@@ -72,9 +76,25 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:python',
         },
         {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
+          skillName: 'Golang',
+          fontAwesomeClassName: 'logos:go',
         },
+        {
+          skillName: 'MySQL',
+          fontAwesomeClassName: 'logos:mysql',
+        },
+        {
+          skillName: 'MongoDB',
+          fontAwesomeClassName: 'logos:mongodb',
+        },
+        {
+          skillName: 'PostgreSQL',
+          fontAwesomeClassName: 'logos:postgresql',
+        },
+        // {
+        //   skillName: 'Django',
+        //   fontAwesomeClassName: 'vscode-icons:file-type-django',
+        // },
 
         {
           skillName: 'Redux',
@@ -87,6 +107,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Yarn',
           fontAwesomeClassName: 'logos:yarn',
+        },
+        {
+          skillName: 'Github',
+          fontAwesomeClassName: 'akar-icons:github-fill',
         },
       ],
     },
@@ -166,8 +190,16 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         {
+          skillName: 'Bitcoin',
+          fontAwesomeClassName: 'logos:bitcoin',
+        },
+        {
           skillName: 'Ethereum',
           fontAwesomeClassName: 'logos:ethereum',
+        },
+        {
+          skillName: 'Hyperledger Fabric',
+          fontAwesomeClassName: 'logos:fabric',
         },
         {
           skillName: 'Solidity',
@@ -185,6 +217,18 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Ganache',
           fontAwesomeClassName: 'logos:ganache-icon',
         },
+        {
+          skillName: 'Truffle',
+          fontAwesomeClassName: 'logos:truffle',
+        },
+        {
+          skillName: 'Remix',
+          fontAwesomeClassName: 'logos:remix',
+        },
+        {
+          skillName: 'Hardhat',
+          fontAwesomeClassName: 'logos:hardhat',
+        },
       ],
     },
   ],
@@ -193,15 +237,15 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '100', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '100',
   },
   {
-    Stack: 'Programming',
-    progressPercentage: '60',
+    Stack: 'Blockchain',
+    progressPercentage: '100',
   },
 ];
 
@@ -233,8 +277,8 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: 'Blockchain Engineer',
-    company: 'OnTheGoSystems',
-    companyLogo: '/img/icons/common/wapidu.jpg',
+    company: 'Mezzofy',
+    companyLogo: '/img/icons/common/Mezzofy.png',
     date: 'May 2021 – May 2023',
     desc: '',
     descBullets: [
@@ -247,7 +291,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Blockchain Developer',
     company: 'CYBAVO',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/CYBAVO.png',
     date: 'Nov 2018 – Apr 2021',
     desc: '',
     descBullets: [
@@ -260,20 +304,19 @@ export const experience: ExperienceType[] = [
   {
     role: 'Blockchain Developer Intern',
     company: 'imToken',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/imToken.png',
     date: 'Apr 2018 – Aug 2018',
     desc: '',
     descBullets: [
-    	"In the first year of the e-commerce site, I created a custom ERC-20 token to act as a payment method and implemented secure transaction protocols to protect user data, resulting in over $100,000 worth of transactions being processed.",
-    	"Working with cross-functional teams, I designed and implemented a blockchain-based decentralized identity solution that resulted in a scalable platform used by more than 50,000 users.",
-      "By developing custom smart contracts and integrating them into the front-end UI with Web3.js, I created a user-friendly interface for easy tracking of inventory and shipments, resulting in over 90% customer satisfaction for the site.",
-      "Established security measures such as multi-factor authentication and encryption to ensure data privacy and confidentiality, resulting in a secure and trusted platform."
+    	"Designed and developed 2 smart contracts using Solidity and Ethereum.",
+    	"Helped improve the stability and reliability of the platform by fixing 5 bugs or issues during the internship.",
+      "Involved in developing internal tools and processes to improve efficiency to 3% and productivity."
     ],
   },
   {
     role: 'Full Stack Developer',
     company: 'Zilingo',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
+    companyLogo: '/img/icons/common/Zilingo.png',
     date: 'Apr 2016 - Apr 2018',
     desc: '',
     descBullets: [
@@ -289,7 +332,8 @@ export const projects: ProjectType[] = [
   {
     name: 'Supply-Chain Management System',
     desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/last-dragon/Django-React-Marketplace',
+    github: 'https://github.com/last-dragon/supply-chain-ethereum',
+    link: 'https://supply-chain-dapp-2f007.web.app/',
   },
   {
     name: 'Technota (Forum)',
