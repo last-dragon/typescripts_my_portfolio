@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Jason Yang',
   title: "Hello Everyone, I'm Jason",
   description:
-    "Over 7 years of experience in developing and implementing blockchain solutions for various industries. Mastered various blockchain technologies such as Ethereum, Hyperledger, and Corda. Strong problem-solving skills and ability to work collaboratively in a team environment. Has published 3 research papers on blockchain technology in peer-reviewed journals. Keeps up to date with the latest blockchain trends and technologies with enthusiasm.",
+    "Over 7 years of experience in developing and implementing blockchain solutions for various industries. Mastered various blockchain technologies such as Ethereum, Hyperledger, and Corda. Strong problem-solving skills and ability to work collaboratively in a team environment. Keeps up to date with the latest blockchain trends and technologies with enthusiasm.",
   resumeLink:
     "https://drive.google.com/file/d/1btqIhAgOJPKLo5K5cUmVwGXGh_R_Lyrd/view?usp=drive_link",
 };
@@ -78,6 +78,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Golang',
           fontAwesomeClassName: 'logos:go',
+        },
+        {
+          skillName: 'Rust',
+          fontAwesomeClassName: 'logos:rust',
         },
         {
           skillName: 'MySQL',
@@ -254,7 +258,7 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Hong Kong University of Information and Technology',
     subHeader: 'Bachelor of Computer Science, Minor in Computer Science',
     duration: 'March 2012 - April 2016',
-    desc: 'Participated in the research of Software Engineer and published 3 papers.',
+    desc: 'Participated in the research of Software Engineer.',
     grade: 'Grade A',
     // descBullets: [
     //   '',
@@ -276,7 +280,7 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Blockchain Engineer',
+    role: 'Blockchain Developer',
     company: 'Mezzofy',
     companyLogo: '/img/icons/common/Mezzofy.png',
     date: 'May 2021 – May 2023',
@@ -336,14 +340,15 @@ export const projects: ProjectType[] = [
     link: 'https://supply-chain-dapp-2f007.web.app/',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/last-dragon/django-react-forum',
+    name: 'Full-Stack E-commerce website (MERN)',
+    desc: 'Using MERN tech, make full-stack website.',
+    github: 'https://github.com/last-dragon/Mern-Ecommerce-website-master',
+    link: 'https://eastclothing.herokuapp.com/',
   },
   {
-    name: 'Shopaza (Ecommerce)',
+    name: 'Blockchain + Ecommerce',
     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/last-dragon/Django-ecommerce',
+    github: 'https://shelly-control-blinds-24011.web.app/',
   },
 ];
 
@@ -352,6 +357,11 @@ export const feedbacks: FeedbackType[] = [
     name: 'John Smith',
     feedback:
       'You showed incredible leadership instincts in your work on that project. I would love to work with you to develop those skills. Amazing work.',
+  },
+  {
+    name: 'Eric Hamold',
+    feedback:
+      "He is an excellent developer. His product is amazing! I would like to work with him.",
   },
   {
     name: 'Jemmy Crystophe',
