@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "Over 7 years of experience in developing and implementing blockchain solutions for various industries. Mastered various blockchain technologies such as Ethereum, Hyperledger, and Corda. Strong problem-solving skills and ability to work collaboratively in a team environment. Keeps up to date with the latest blockchain trends and technologies with enthusiasm.",
   resumeLink:
-    "https://drive.google.com/file/d/1btqIhAgOJPKLo5K5cUmVwGXGh_R_Lyrd/view?usp=drive_link",
+    "https://drive.google.com/file/d/1tKFerCHg0WAZXl1xZPy9ABmg5DUijPwn/view?usp=drive_link",
 };
 
 export const openSource = {
@@ -349,6 +349,7 @@ export const projects: ProjectType[] = [
     name: 'Blockchain + Ecommerce',
     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
     github: 'https://shelly-control-blinds-24011.web.app/',
+    link: 'shelly-control-blinds-24011.web.app/',
   },
 ];
 
