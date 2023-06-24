@@ -35,7 +35,7 @@ git@2.17.1 or higher
 1. Fork this repoistory and clone it to your local machine.
 
 ```bash
-$ git clone https://github.com/edNelson-boy/portfolio-react-master.git
+$ git clone https://github.com/last-dragon/portfolio-react-master.git
 ```
 
 2. Go into the repository
