@@ -62,7 +62,7 @@ $ yarn dev
 
 ```javascript
   //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
+  githubUserName: last-dragon,
 ```
 
 #### Using Emojis
